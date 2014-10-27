@@ -1,13 +1,10 @@
-# NCAA Basketball Tournament Predictor 
+# NCAA Basketball Tournament Predictor - A simple example of node.js and Async
 
-
-This is a simple example of node.js and Async. The application simulates NCAA Basketball Tournament 
-games. Its not much of a predictor, it just uses the seeding and randomly handles the final four.
-
-It uses node.js as the vehicle to run the javascript and uses Ascync to coordinate
-simulating the regional games asynchronously. The async.parallel callback is used
-to handle coordinating the asynchronous regional game simuations and when all regional 
-games have been simulated the final four games are simulated.
+This is a very simple application that simulates NCAA Basketball Tournament games.
+It used node.js as the vehicle to run the javascript and uses Ascync to coordinate
+simulating the regional games asynchronously, and using the async.parallel callback 
+to execute when all of the 4 asynchronously processing regional games have 
+been simulated.
 
 ## Instructions
 
